@@ -13,9 +13,12 @@ let theButtons = document.querySelectorAll("#buttonHolder img"),
 function changeBGImage () {
 	debugger;
 	theHeading.textContent = "Super Awesome Drag and Drop Game"
+	let theNewSource = "images/backGround" + this.id + "jpg";
+
+	console.log(theNewSource)
 	// start with the object, and then change a property
 	//or run a method
-	theHeading.classList.add('oragne-heading');
+
 }
 
 //step 2
