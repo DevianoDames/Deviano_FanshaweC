@@ -4,7 +4,7 @@
 //let theButton = document.querySelector("#buttonOne"),
 
 //creat a 1 to many connection with a variable
-let theButton = document.querySelectorAll("#buttonHolder img"),
+let theButtons = document.querySelectorAll("#buttonHolder img"),
 	theHeading = document.querySelector("#headLine h1");
 	puzzleBoard = document.querySelector (".puzzle-board");
 // step 3
